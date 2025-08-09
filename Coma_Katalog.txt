@@ -1,0 +1,117 @@
+================Coma I =========
+K1 Landau-Symbole
+K2 Modulo-Rechnung
+k3, k4 Zahlendarstellung in Machine
+ 
+K5 Binäre Suche
+K6 ungerichtete/gerichtete Graphen
+K7 Graphenalgorithmen
+
+K8 Sortieren
+k9 Sortieren
+
+k10 Lineare Gleichungssystem
+k11 Matroide
+
+k12 dynamische Programmierung
+
+
+
+5 Rechnen mit Fehlern
+5.1 Binäre Suche
+5.2 Diskrete binäre Suche
+5.3 Fehlerfortpflanzung
+5.4 Newton-Verfahren
+5.5 Konvergenzordnung
+5.6 Exkurs: Codierung von Zeichen
+5.7 Exkurs: Rechnen mit Folgen und Reihen
+5.8 Exkurs: Riemannsche ζ-Funktion und Riemannscher Umordnungssatz
+
+
+
+6 Graphen
+6.1 Terminologie für Graphen
+6.2 Handschlaglemma
+6.3 Teilgraphen, Wege, Kreise
+6.4 Zusammenhang und Zusammen-hangskomponenten
+6.5 Eulersche Graphen
+6.6 Graphen mit Eulertour
+6.7 Wälder, Bäume, Blätter
+6.8 Charakterisierung von Bäumen
+6.9 Charakterisierung zusammenhängender Graphen
+6.10 Branchings und Arboreszenzen
+6.11 Darstellung von Graphen im Computer
+
+
+
+7 Graphenalgorithmen
+7.1 Algorithmus zur Graphendurchmusterung
+7.2 Breitensuche und Tiefensuche
+
+
+
+8 Sortieren
+8.1 Partielle und totale Ordnungen
+8.2 Selection-Sort
+8.3 Insertion-Sort
+8.4 Divide & Conquer
+8.5 Merge-Sort
+8.7 Untere Schranken für Sortieren
+8.8 Beweis der unteren Schranke für vergleichsbasiertes Sortieren
+8.9 Quick-Sort
+8.10 Laufzeitanalyse von Quicksort
+8.12 Nützliche Eigenschaften von Sortierverfahren
+8.13 Median und i-te geordnete Statistik
+8.14 Divide & Conquer für Auswahlproblem
+8.15 Randomisierter Linearzeit- Algorithmus für Auswahlproblem
+8.16 Deterministischer Linearzeit- Algorithmus für Auswahlproblem
+
+
+
+9 Sortieren in Linearzeit
+9.1 Counting-Sort
+9.2 Radix-Sort
+9.3 Bucket-Sort
+
+
+
+10 Lineare Gleichungssysteme
+10.1 Elementare Umformungen und gestaffelte Form
+10.2 Gauß-Jordan-Eliminationsverfahren
+10.3 LU-Zerlegung
+10.4 Allgemeine Form der LU-Zerlegung
+10.5 Berechnung der allgemeinen LU-Zerlegung mit Gauß-Jordan-Eliminationsverfahren
+10.6 Gauß-Jordan-Eliminationsverfahren mit Fließkomma-Arithmetik
+10.7 Pivotisieren bei Gauß-Jordan-Elimination
+10.8 Determinante einer quadratischen Matrix
+10.9 Gauß-Jordan-Elimination über den rationalen Zahlen
+10.10 Gauß-Jordan-Eliminationsverfahren hat polynomielle Laufzeit
+10.11 Algorithmen zur Berechnung der Determinante
+10.12 Vektor-Norm und induzierte Matrix-Norm
+10.13 Kondition linearer Gleichungssysteme
+
+
+
+11 Matroide
+11.1 Unabhängigkeitssysteme
+11.2 Matroide
+11.3 Graphische und lineare Matroide
+11.4 Charakterisierung von Matroiden mithilfe von Basen
+11.5 Algorithmische Charakterisierung von Matroiden
+11.6 Berechnung einer Basis minimalen Gewichts
+11.7 Worst-Out-Greedy-Algorithmus
+11.8 Laufzeitanalyse der Greedy-Algorithmen
+11.9 Anwendung: Minimal aufspannende Bäume
+11.10 Prims Algorithmus für minimal aufspannende Bäume
+11.11 Korrektheit von Prims Algorithmus und weitere MST-Algorithmen
+
+
+
+12 Dynamische Programmierung
+12.1 Beispiel: Fibonacci-Zahlen
+12.2 Dynamische Programmierung: Generelle Idee
+12.3 Beispiel: Change-Making-Problem
+12.4 Beispiel: Robotersteuerung
+12.5 Beispiel: Sequenzvergleich
+12.6 Sequenzalingmentproblem
+12.7 Dynamische Programmierung für das Sequenzalignmentproblem
