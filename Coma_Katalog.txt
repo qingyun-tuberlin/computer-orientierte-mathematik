@@ -1,22 +1,11 @@
+Computer oriented Mathematik
+
 ================Coma I =========
+
 K1 Landau-Symbole
 K2 Modulo-Rechnung
 k3, k4 Zahlendarstellung in Machine
  
-K5 Binäre Suche
-K6 ungerichtete/gerichtete Graphen
-K7 Graphenalgorithmen
-
-K8 Sortieren
-k9 Sortieren
-
-k10 Lineare Gleichungssystem
-k11 Matroide
-
-k12 dynamische Programmierung
-
-
-
 5 Rechnen mit Fehlern
 5.1 Binäre Suche
 5.2 Diskrete binäre Suche
@@ -26,7 +15,6 @@ k12 dynamische Programmierung
 5.6 Exkurs: Codierung von Zeichen
 5.7 Exkurs: Rechnen mit Folgen und Reihen
 5.8 Exkurs: Riemannsche ζ-Funktion und Riemannscher Umordnungssatz
-
 
 
 6 Graphen
@@ -43,12 +31,9 @@ k12 dynamische Programmierung
 6.11 Darstellung von Graphen im Computer
 
 
-
 7 Graphenalgorithmen
 7.1 Algorithmus zur Graphendurchmusterung
 7.2 Breitensuche und Tiefensuche
-
-
 
 8 Sortieren
 8.1 Partielle und totale Ordnungen
@@ -66,13 +51,10 @@ k12 dynamische Programmierung
 8.15 Randomisierter Linearzeit- Algorithmus für Auswahlproblem
 8.16 Deterministischer Linearzeit- Algorithmus für Auswahlproblem
 
-
-
 9 Sortieren in Linearzeit
 9.1 Counting-Sort
 9.2 Radix-Sort
 9.3 Bucket-Sort
-
 
 
 10 Lineare Gleichungssysteme
@@ -89,8 +71,6 @@ k12 dynamische Programmierung
 10.11 Algorithmen zur Berechnung der Determinante
 10.12 Vektor-Norm und induzierte Matrix-Norm
 10.13 Kondition linearer Gleichungssysteme
-
-
 
 11 Matroide
 11.1 Unabhängigkeitssysteme
@@ -115,3 +95,120 @@ k12 dynamische Programmierung
 12.5 Beispiel: Sequenzvergleich
 12.6 Sequenzalingmentproblem
 12.7 Dynamische Programmierung für das Sequenzalignmentproblem
+
+
+
+
+==============     COMA II      ===============
+
+13 Elementare Datenstrukturen
+13.1 Dynamische Mengen
+13.2 Stacks and Queues
+13.3 Polymorphie/Multiple Dispatch
+13.4 Datenstruktur Liste
+13.5 Binärbäume
+
+
+14 Heaps und Heapsort
+14.1 Datenstruktur MaxHeap
+14.2 Herstellen der Heap-Eigenschaft
+14.3 Heap-Sort
+14.4 Heaps als Priority Queues
+14.5 Prims Algorithmus mit Heaps
+
+15 Kürzeste Wege
+15.1 Fords Kürzeste-Wege-Algorithmus
+15.2 Korrektheit und Laufzeit von Fords Algorithmus
+15.3 Algorithmus von Bellman and Ford
+15.4 Kürzeste Wege in azyklischen Digraphen
+15.5 Dijkstras Algorithmus
+
+16 Datenstrukturen disjunkter Mengen
+16.1 Union-Find-Datenstruktur
+16.2 Einfache Implementation der Union-Find Datenstruktur
+16.3 Implementation der Union-Find Datenstruktur mit Bäumen
+
+17 Huffman-Codes und Datenkompression
+17.1 Präfixcode
+17.2 Huffman-Codes
+17.3 Optimalität des Huffman-Codes
+
+
+18 Binäre Suchbäume
+18.1 Suchoperationen auf Suchbäumen
+18.2 Einfügen und Löschen in Suchbäumen
+18.3 Rotationen in Suchbäumen
+18.4 Balancierte Suchbäume
+18.5 Extremale AVL-Bäume
+18.6 Rotationen und Doppelrotationen
+18.7 Einfügen und Löschen in AVL- Bäumen
+18.8 Splay-Bäume
+18.9 Laufzeitanalyse für Splay-Bäume
+18.10 Beweis des Lemmas zur amortisierten Laufzeit
+18.11 Optimale statische Suchbäume
+18.12 Optimale Substruktur und Dynamisches Programm
+18.13 Beispiel für die Berechnung eines optimalen statischen Suchbaumes
+18.14 Analyse des dynamischen Programms
+
+
+19 Triangulierungen von Polygonen
+19.1 Traingulierungen
+19.2 Kanten-Flips und Rotationen
+19.3 Flipdistanz
+
+
+20 Hashing
+20.1 Hashing
+20.2 Wahl der Hash-Funktionen
+20.3 Hashing mit Verkettung
+20.4 Universelles Hashing
+20.5 Hashing mit offener Adressierung
+20.6 Analyse von Hashing mit offener Adressierung
+20.7 Perfektes Hashing
+20.8 Analyse für Perfektes Hashing
+
+
+21 Grenzen der Berechenbarkeit
+21.1 Mächtigkeit von Mengen
+21.2 Berechenbarkeit
+
+
+22 Die Turingmaschine als Rechnermodell
+22.1 Die Turingmaschine
+22.2 Konfiguration deterministischer Turingmaschinen
+22.3 Techniken zur Programmierung von Turingmaschinen
+22.4 Mehrband-Turingmaschine
+22.5 Mächtigkeit der Mehrband-Turingmaschine
+22.6 Gödelnummer und universelle Turingmaschine
+22.7 Churchsche These und Registermaschine
+22.8 Ein unentscheidbares Problem
+22.9 Weitere unentscheidbare Probleme
+22.10 Der Satz von Rice
+
+23 Exkurs: Gödels Unvollständigkeitssatz
+23.1 Mathematische Sätze
+23.2 Mathematische Beweise
+
+24 Komplexitätsklassen P und NP
+24.1 Cliquenproblem
+24.2 Nichtdeterministische Turingmaschinen
+24.3 Komplexitätsklasse NP
+24.4 Polynomielle Reduktion
+24.5 NP-Vollständigkeit
+24.6 Beweis des Theorems von Cook
+24.7 Weitere NP-vollständige Probleme
+24.8 P versus NP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
