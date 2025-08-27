@@ -199,16 +199,3 @@ k3, k4 Zahlendarstellung in Machine
 24.7 Weitere NP-vollständige Probleme
 24.8 P versus NP
 
-
-
-
-
-
-
-
-
-
-
-
-
-
