@@ -8,7 +8,6 @@ def mergeSort(A):
             mergeSort(A[len(A)//2:])     # 递归排序右半部分
         ))
 
-
 def merge(left, right):
     merged = []
     while left and right:                 # 当左右数组都非空时
@@ -21,7 +20,7 @@ def merge(left, right):
     merged.extend(left + right)           # 把剩下的直接接到结果后面
     return merged
 
-A = input().split()
+A = input().split() # Beispiel: 4 3 2 1
 A = [int(x) for x in A]
 print(mergeSort(A))
 
