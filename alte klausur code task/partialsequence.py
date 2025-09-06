@@ -8,6 +8,7 @@
 
 def partialsequence(n: int, k: int) -> bool:
     # 题设：k 为 3 位正整数
+    # “滑动窗口”思想， 就是把“字符串扫描”换成“算术扫描”。
     if k < 100 or k > 999:
         raise ValueError("k must be a 3-digit positive integer (100..999).")
     
