@@ -1,4 +1,11 @@
 
+# 全序下：插入排序稳定。
+# 偏序下：插入排序通常 不稳定，
+# 因为它会随意改变不可比元素的相对顺序
+
+# Sortieren durch Einfügen liefert in diesem Fall im Allgemeinen keine topologische Sortierung.
+# Gegenbeispiel: Ist ⪯die Teilbarkeitsrelation, so liefert Insertion-Sort bei Eingabe A=[4,5,2]
+# die Ausgabe A=[4,5,2]
 
 def insertionSort(A):
     n = len(A)
