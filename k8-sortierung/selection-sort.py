@@ -8,17 +8,9 @@ def selectionSort(A):
     这样,每一轮外层循环结束后,A[i] 就是从 i..n-1 范围里最小的数。
     最终数组会变成升序排列。
 
-    This algorithm is in-place.
+    This algorithm is in-place and stable 
     It only rearranges the array inside A using swaps, 
     and needs no extra data structure (only O(1) additional space).
-
-    This algorithm is not stable.
-    Let A = [(2, 'a'), (2, 'b'), (1, 'c')] where I mark duplicates with labels.
-    At the first iteration (i=0, j=2): 1 < 2 → swap (2, 'a') and (1, 'c').
-    New order: [(1, 'c'), (2, 'b'), (2, 'a')].
-    Notice: originally (2,'a') came before (2,'b'). 
-    After sorting, (2,'b') comes before (2,'a'). 
-    Relative order of equal 2s got reversed → not stable.
 
     """
     
