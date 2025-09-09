@@ -1,0 +1,12 @@
+11 Matroide 
+11.1 Unabhängigkeitssysteme
+11.2 Matroide
+11.3 Graphische und lineare Matroide
+11.4 Charakterisierung von Matroiden mithilfe von Basen
+11.5 Algorithmische Charakterisierung von Matroiden
+11.6 Berechnung einer Basis minimalen Gewichts
+11.7 Worst-Out-Greedy-Algorithmus
+11.8 Laufzeitanalyse der Greedy-Algorithmen
+11.9 Anwendung: Minimal aufspannende Bäume
+11.10 Prims Algorithmus für minimal aufspannende Bäume
+11.11 Korrektheit von Prims Algorithmus und weitere MST-Algorithmen
