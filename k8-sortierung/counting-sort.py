@@ -9,10 +9,6 @@ for j in range(0,n):
     C[A[j]] = C[A[j]] + 1
 print("C: ", C)
 
-# for x in A:
-#     C[x] += 1
-# A[j] == x
-
 for i in range(0,k):
     C[i+1] = C[i+1] + C[i]
 print("C: ", C)
