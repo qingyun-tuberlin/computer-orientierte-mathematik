@@ -18,8 +18,19 @@ end
 p::Point = Point(1,2)
 println(p.x)
 
+import Base: +
+struct IntegerModuleThree <: Number
+    representative:: Int
+end
++(x::IntegerModuleThree, y::IntegerModuleThree) =
+(x.representative + y.representative) % 3
 
-println("mutable makes struct mutable\n")
+x = IntegerModuleThree(2)
+y = IntegerModuleThree(1)
+println("\nIntegerModuleThree")
+println(x+y)
+
+println("\nmutable makes struct mutable")
 mutable struct Car
     height::Int
     length::Int
@@ -30,7 +41,7 @@ c.height = 50
 println(c.height)
 
 
-print("define your own function\n")
+println("\ndefine your own function")
 # return is optional
 # Das Ergenis des letzten Ausdrucks wird automatisch zurückgegeben.
 function f(x,y)
