@@ -1,4 +1,5 @@
 
+
 def quickSort(A):
     if len(A) <= 1:          # 基本情况：长度 ≤ 1，直接返回
         return(A)

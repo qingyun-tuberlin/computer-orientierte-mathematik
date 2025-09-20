@@ -1,12 +1,11 @@
 import math 
-
-
 def bucketSort(A):
     n = len(A)
     # B = [0] * n
+    # for i in range(0,n):
+    #     B[i] = []
+    
     B = [[] for _ in range(n)] 
-    for i in range(0,n):
-        B[i] = []
     
     for i in range(0,n):
         index = int(n * A[i])
