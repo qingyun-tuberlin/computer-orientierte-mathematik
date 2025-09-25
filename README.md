@@ -1,0 +1,253 @@
+# Computer Oriented Mathematik W24/25 - S25
+
+## links for supplyment
+
+good supplyment:
+https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/video_galleries/lecture-videos/
+
+## content
+
+### 1 Landau-Symbole
+
+1.1 Algorithmen
+1.2 Terminiertheit von Algorithmen
+1.3 Mathematische Notation
+1.4 Relationen und Funktionen
+1.5 Wachstum von Funktionen
+1.6 Laufzeit von Algorithmen
+1.7 Sieb des Eratosthenes
+1.8 Vollständige Induktion
+1.9 Verallgemeinerte Induktion
+
+
+### 2 Modulo-Rechnung
+
+2.1 Modulo-Rechnung
+2.2 b-adische Darstellung
+2.3 Horner-Schema
+2.4 b-Komplement und Eigenschaften
+2.5 b-Komplementdarstellung ganzer Zahlen
+2.6 Darstellung ganzer Zahlen im Computer
+2.7 Darstellung großer ganzer Zahlen im Computer
+2.8 Exakte Arithmetik
+
+
+### 3 Rechnen mit ganzen Zahlen
+
+3.1 Addition und Subtraktion in b-adischer Darstellung
+3.2 Schnelle Multiplikation in b-adischer Darstellung
+3.3 Karazubas Multiplikation
+3.4 Karazuba’s Multiplikation: Korrektheit und Laufzeit
+3.5 Größter gemeinsamer Teiler und kleinstes gemeinsames Vielfaches
+3.6 Euklidischer Algorithmus
+3.7 Lemma von Bézout
+
+
+### 4 Approximative Darstellungreeller Zahlen
+
+4.1 Normalisierte b-adische Darstellung reeller Zahlen
+4.2 Normalisierte b-adische Darstellung: Existenz
+4.3 Normalisierte b-adische Darstellung: Eindeutigkeit
+4.4 Maschinenzahlen
+4.5 Maschinengenauigkeit
+4.6 Maschinenzahlenarithmetik
+
+
+### 5 Rechnen mit Fehlern
+
+5.1 Binäre Suche
+5.2 Diskrete binäre Suche
+5.3 Fehlerfortpflanzung
+5.4 Newton-Verfahren
+5.5 Konvergenzordnung
+5.6 Exkurs: Codierung von Zeichen
+5.7 Exkurs: Rechnen mit Folgen und Reihen
+5.8 Exkurs: Riemannsche ζ-Funktion und Riemannscher Umordnungssatz
+
+### 6 Graphen
+
+6.1 Terminologie für Graphen
+6.2 Handschlaglemma
+6.3 Teilgraphen, Wege, Kreise
+6.4 Zusammenhang und Zusammen-hangskomponenten
+6.5 Eulersche Graphen
+6.6 Graphen mit Eulertour
+6.7 Wälder, Bäume, Blätter
+6.8 Charakterisierung von Bäumen
+6.9 Charakterisierung zusammenhängender Graphen
+6.10 Branchings und Arboreszenzen
+6.11 Darstellung von Graphen im Computer
+
+### 7 Graphenalgorithmen
+
+7.1 Algorithmus zur Graphendurchmusterung
+7.2 Breitensuche und Tiefensuche
+
+### 8 Sortieren
+
+8.1 Partielle und totale Ordnungen
+8.2 Selection-Sort
+8.3 Insertion-Sort
+8.4 Divide & Conquer
+8.5 Merge-Sort and Master Theorem 
+8.7 Untere Schranken für Sortieren
+8.8 Beweis der unteren Schranke für vergleichsbasiertes Sortieren
+8.9 Quick-Sort
+8.10 Laufzeitanalyse von Quicksort
+8.12 Nützliche Eigenschaften von Sortierverfahren
+8.13 Median und i-te geordnete Statistik
+8.14 Divide & Conquer für Auswahlproblem
+8.15 Randomisierter Linearzeit- Algorithmus für Auswahlproblem
+8.16 Deterministischer Linearzeit- Algorithmus für Auswahlproblem
+
+### 9 Sortieren in Linearzeit
+
+9.1 Counting-Sort
+9.2 Radix-Sort
+9.3 Bucket-Sort
+
+### 10 Lineare Gleichungssysteme
+
+10.1 Elementare Umformungen und gestaffelte Form
+10.2 Gauß-Jordan-Eliminationsverfahren
+10.3 LU-Zerlegung
+10.4 Allgemeine Form der LU-Zerlegung
+10.5 Berechnung der allgemeinen LU-Zerlegung mit Gauß-Jordan-Eliminationsverfahren
+10.6 Gauß-Jordan-Eliminationsverfahren mit Fließkomma-Arithmetik
+10.7 Pivotisieren bei Gauß-Jordan-Elimination
+10.8 Determinante einer quadratischen Matrix
+10.9 Gauß-Jordan-Elimination über den rationalen Zahlen
+10.10 Gauß-Jordan-Eliminationsverfahren hat polynomiele Laufzeit
+10.11 Algorithmen zur Berechnung der Determinante
+10.12 Vektor-Norm und induzierte Matrix-Norm
+10.13 Kondition linearer Gleichungssysteme
+
+### 11 Matroide 
+
+11.1 Unabhängigkeitssysteme (independent system problem)
+11.2 Matroide (Matroid)
+11.3 Graphische und lineare Matroide
+11.4 Charakterisierung von Matroiden mithilfe von Basen
+11.5 Algorithmische Charakterisierung von Matroiden
+11.6 Berechnung einer Basis minimalen Gewichts
+11.7 Worst-Out-Greedy-Algorithmus
+11.8 Laufzeitanalyse der Greedy-Algorithmen
+11.9 Anwendung: Minimal aufspannende Bäume
+11.10 Prims Algorithmus für minimal aufspannende Bäume
+11.11 Korrektheit von Prims Algorithmus und weitere MST-Algorithmen
+
+### 12 Dynamische Programmierung
+
+MIT Introduction to Algorithm, DP 1-4
+12.1 Beispiel: Fibonacci-Zahlen
+12.2 Dynamische Programmierung: Generelle Idee
+12.3 Beispiel: Change-Making-Problem
+12.4 Beispiel: Robotersteuerung
+12.5 Beispiel: Sequenzvergleich
+12.6 Sequenzalingmentproblem
+12.7 Dynamische Programmierung für das Sequenzalignmentproblem
+
+
+### 13 Elementare Datenstrukturen
+
+13.1 Dynamische Mengen
+13.2 Stacks and Queues
+13.3 Polymorphie/Multiple Dispatch
+13.4 Datenstruktur Liste
+13.5 Binärbäume
+
+### 14 Heaps und Heapsort
+
+14.1 Datenstruktur MaxHeap
+14.2 Herstellen der Heap-Eigenschaft
+14.3 Heap-Sort
+14.4 Heaps als Priority Queues
+14.5 Prims Algorithmus mit Heaps
+
+### 15 Kürzeste Wege
+
+15.1 Fords Kürzeste-Wege-Algorithmus
+15.2 Korrektheit und Laufzeit von Fords Algorithmus
+15.3 Algorithmus von Bellman and Ford
+15.4 Kürzeste Wege in azyklischen Digraphen
+15.5 Dijkstras Algorithmus
+
+### 16 Datenstrukturen disjunkter Mengen
+
+16.0 Wiederholung Kruskal 
+16.1 Union-Find-Datenstruktur
+16.2 Einfache Implementation der Union-Find Datenstruktur
+16.3 Implementation der Union-Find Datenstruktur mit Bäumen
+
+### 17 Huffman-Codes und Datenkompression
+
+17.1 Präfixcode
+17.2 Huffman-Codes
+17.3 Optimalität des Huffman-Codes
+
+
+### 18 Binäre Suchbäume
+
+18.1 Suchoperationen auf Suchbäumen
+18.2 Einfügen und Löschen in Suchbäumen
+18.3 Rotationen in Suchbäumen
+18.4 Balancierte Suchbäume
+18.5 Extremale AVL-Bäume
+18.6 Rotationen und Doppelrotationen
+18.7 Einfügen und Löschen in AVL- Bäumen
+18.8 Splay-Bäume
+18.9 Laufzeitanalyse für Splay-Bäume
+18.10 Beweis des Lemmas zur amortisierten Laufzeit
+18.11 Optimale statische Suchbäume
+18.12 Optimale Substruktur und Dynamisches Programm
+18.13 Beispiel für die Berechnung eines optimalen statischen Suchbaumes
+18.14 Analyse des dynamischen Programms
+
+### 20 Hashing
+
+20.1 Hashing
+20.2 Wahl der Hash-Funktionen
+20.3 Hashing mit Verkettung
+20.4 Universelles Hashing
+20.5 Hashing mit offener Adressierung
+20.6 Analyse von Hashing mit offener Adressierung
+20.7 Perfektes Hashing
+20.8 Analyse für Perfektes Hashing
+
+### 21 Grenzen der Berechenbarkeit
+
+21.1 Mächtigkeit von Mengen
+21.2 Berechenbarkeit
+
+### 22 Die Turingmaschine als Rechnermodell
+
+22.1 Die Turingmaschine
+22.2 Konfiguration deterministischer Turingmaschinen
+22.3 Techniken zur Programmierung von Turingmaschinen
+22.4 Mehrband-Turingmaschine
+22.5 Mächtigkeit der Mehrband-Turingmaschine
+22.6 Gödelnummer und universelle Turingmaschine
+22.7 Churchsche These und Registermaschine
+22.8 Ein unentscheidbares Problem
+22.9 Weitere unentscheidbare Probleme
+22.10 Der Satz von Rice
+
+### 24 Komplexitätsklassen P und NP
+24.1 Cliquenproblem
+24.2 Nichtdeterministische Turingmaschinen
+24.3 Komplexitätsklasse NP
+24.4 Polynomielle Reduktion
+24.5 NP-Vollständigkeit
+24.6 Beweis des Theorems von Cook
+24.7 Weitere NP-vollständige Probleme
+24.8 P versus NP
+
+
+
+
+
+
+
+
+
+
