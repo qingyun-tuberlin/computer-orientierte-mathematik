@@ -5,6 +5,9 @@
 good supplyment:
 https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/video_galleries/lecture-videos/
 
+## further studying suggestion
+I would recommend the course Design And Analysis Of Algorithms of MIT, or Advanced Algorithmics.
+
 ## content
 
 ### 1 Landau-Symbole
